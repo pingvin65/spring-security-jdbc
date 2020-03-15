@@ -21,8 +21,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.jdbcAuthentication().dataSource(dataSource).passwordEncoder(passwordEncoder());
 		String password = passwordEncoder().encode("pass");
-		System.out.println("---------------------------------------------");
-		System.out.println(password);
+//		System.out.println("---------------------------------------------");
+//		System.out.println(password);
 //				.withDefaultSchema()
 //				.withUser(User.withUsername("user").password("pass").roles("USER"))
 //				.withUser(User.withUsername("admin").password("pass").roles("ADMIN"));
