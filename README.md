@@ -1,4 +1,13 @@
 # Spring security jdbc
+
+* The project uses dependencies
+    * Spring Web
+    * Spring Security
+    * JDBC API
+    * H2 Database
+    * Thymeleaf
+    * Spring Boot DevTools
+
 ### http://localhost:8080/ All have access to the homepage
 ![home page](./images/image01.png)
 
